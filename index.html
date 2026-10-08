@@ -1,0 +1,268 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>ประกาศ Flashback Pre-Order</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@500;600&family=Sarabun:wght@400;500;600&display=swap">
+<style>
+/* Layout: one reading column; summary of the 3 changes first, then price table, packs with image slots, timeline, next campaign */
+:root{
+  color-scheme:dark;
+  --bg:#080b10; --surface:#10151c; --ink:#ebe6d8; --muted:#b3b9c2; --line:#28303a;
+  --pink:#ead7a6; --pink-soft:#262014; --gold:#ead7a6; --gold-soft:#262014;
+  --sky:#c8b684; --sky-soft:#141a22; --todo-bg:#4a3d08; --todo-ink:#ffe58a;
+  --display:"IBM Plex Sans Thai","Sarabun","Leelawadee UI","Thonburi",sans-serif;
+  --body:"Sarabun","Leelawadee UI","Thonburi","Noto Sans Thai",sans-serif;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.8;padding-inline:16px;padding-block:28px 48px}
+.page{max-width:860px;background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:clamp(18px,4vw,40px);margin-inline:auto;display:flex;flex-direction:column;gap:36px}
+h1,h2,h3{font-family:var(--display);font-weight:600;line-height:1.3;margin:0;text-wrap:balance}
+h1{font-size:clamp(1.7rem,5vw,2.5rem)}
+h2{font-size:1.45rem}
+h3{font-size:1.05rem}
+p{margin:0}
+.eyebrow{font-family:var(--display);font-size:.9rem;letter-spacing:.04em;color:var(--sky)}
+header{display:flex;flex-direction:column;gap:10px}
+.lede{color:var(--muted);max-width:60ch}
+.slot{border:1px dashed var(--muted);border-radius:14px;background:var(--bg);color:var(--muted);display:flex;align-items:center;justify-content:center;text-align:center;font-size:.95rem;padding:12px;max-width:100%}
+.slot.hero{aspect-ratio:16/7}
+.shot{aspect-ratio:1/1;max-width:100%;border:1px solid var(--line);border-radius:14px;background:radial-gradient(circle at 50% 40%,var(--sky-soft),var(--bg) 70%);padding:14px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.shot.wide{aspect-ratio:16/8}
+.shot.key{aspect-ratio:1600/1036}
+.shot img{width:100%;height:100%;object-fit:contain;display:block}
+.slot.costume{aspect-ratio:4/5}
+.summary{scroll-margin-top:76px;list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.summary li{background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.summary .who{font-size:.9rem;color:var(--muted)}
+.summary .big{font-family:var(--display);font-size:1.5rem;line-height:1.2;font-variant-numeric:tabular-nums}
+.summary li:nth-child(1) .big{color:var(--pink)}
+.summary li:nth-child(2) .big{color:var(--gold)}
+.summary li:nth-child(3) .big{color:var(--sky)}
+section{display:flex;flex-direction:column;gap:16px}
+.tablewrap{overflow-x:auto;background:var(--bg);border:1px solid var(--line);border-radius:14px}
+table{border-collapse:collapse;width:100%;min-width:440px;font-variant-numeric:tabular-nums}
+th,td{padding:12px 16px;text-align:left;border-bottom:1px solid var(--line)}
+tr:last-child td{border-bottom:0}
+th{font-family:var(--display);font-weight:500;font-size:.9rem;color:var(--muted)}
+td.old{color:var(--muted);text-decoration:line-through}
+td.new{font-family:var(--display);font-size:1.25rem;color:var(--pink)}
+.packs{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.pack{display:flex;flex-direction:column;gap:10px;min-width:0}
+.incl{font-size:.95rem;color:var(--muted)}
+.incl ul{margin:4px 0 0;padding-left:20px;color:var(--ink)}
+.pack .name{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.price{font-family:var(--display);font-size:1.25rem;color:var(--gold)}
+.tag{display:inline-block;font-size:.9rem;border-radius:999px;padding:2px 10px}
+.tag.pink{background:var(--pink-soft);color:var(--pink)}
+.tag.gold{background:var(--gold-soft);color:var(--gold)}
+.timeline{list-style:none;margin:0;padding:0;border-left:2px solid var(--line);display:flex;flex-direction:column;gap:18px}
+.timeline li{padding-left:18px;position:relative}
+.timeline li::before{content:"";position:absolute;left:-7px;top:.6em;width:12px;height:12px;border-radius:50%;background:var(--sky)}
+.timeline .when{font-family:var(--display);color:var(--sky)}
+.note{background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:16px}
+.note ul{margin:6px 0 0;padding-left:20px}
+.todo{background:var(--todo-bg);color:var(--todo-ink);border-radius:6px;padding:1px 8px;font-size:.85rem;white-space:normal}
+a{color:var(--sky)}
+a:focus-visible{outline:2px solid var(--sky);outline-offset:2px}
+.cta{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:var(--display);font-weight:600;font-size:1.1rem;background:var(--gold);color:var(--bg);text-decoration:none;border-radius:12px;padding:14px 28px;min-height:52px;box-shadow:0 0 0 4px var(--gold-soft);transition:transform .15s}
+.cta:hover{transform:translateY(-2px)}
+.cta .arrow{font-size:1.2em;line-height:1}
+.ctabox{background:var(--gold-soft);border:1px solid var(--sky);border-radius:16px;padding:20px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px}
+.ctabox .txt{display:flex;flex-direction:column;gap:2px;min-width:0;flex:1 1 260px}
+.ctabox .txt strong{font-family:var(--display);font-size:1.15rem;color:var(--gold)}
+.ctabox .cta{flex:0 1 auto}
+.shell{max-width:1160px;margin-inline:auto;display:grid;grid-template-columns:290px minmax(0,1fr);gap:20px;align-items:start}
+.shell .page{margin-inline:0;max-width:none}
+.jump{position:sticky;top:calc(env(safe-area-inset-top,0px) + 20px);z-index:5;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:16px;display:flex;flex-direction:column;gap:10px}
+.jump .jtitle{font-family:var(--display);font-weight:500;font-size:.9rem;color:var(--muted);max-width:none}
+.jump .jtitle.more{font-size:.9rem;color:var(--muted);font-weight:500;border-top:1px solid var(--line);padding-top:12px;margin-top:4px}
+.jump ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.jump a{display:flex;align-items:center;gap:12px;color:var(--ink);text-decoration:none;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.jump .n,.num{flex:none;display:inline-flex;align-items:center;justify-content:center;width:1.9em;height:1.9em;border-radius:50%;background:var(--gold-soft);border:1px solid var(--sky);color:var(--gold);font-family:var(--display);font-weight:600;line-height:1}
+.num{font-size:.8em;align-self:center}
+.jump .t{display:flex;flex-direction:column;min-width:0;line-height:1.4}
+.jump .t b{font-family:var(--display);font-weight:600;font-size:1rem;white-space:nowrap}
+.jump .t small{color:var(--muted);font-size:.875rem}
+.jump .minor a{background:none;border-color:transparent;padding:6px 8px;font-size:.95rem}
+.jump a:hover,.jump a.on{border-color:var(--gold)}
+.jump a.on .t b,.jump .minor a.on,.jump .minor a:hover{color:var(--gold)}
+.jump a.on .n{background:var(--gold);color:var(--bg)}
+@media (max-width:900px){
+  .shell{grid-template-columns:minmax(0,1fr);gap:12px}
+  .jump{top:env(safe-area-inset-top,0px);border-radius:14px;padding:8px 10px;overflow-x:auto;flex-direction:row;align-items:center;gap:8px}
+  .jump .jtitle,.jump .t small{display:none}
+  .jump ul{flex-direction:row;width:max-content}
+  .jump a,.jump .minor a{border:1px solid var(--line);background:var(--bg);border-radius:999px;padding:6px 12px;gap:8px;white-space:nowrap;font-size:.95rem}
+  .jump .t b{font-size:.95rem}
+  .jump .n{width:1.6em;height:1.6em;font-size:.85rem}
+}
+section{scroll-margin-top:76px;border-top:1px solid var(--line);padding-top:28px}
+h2{display:flex;align-items:baseline;justify-content:center;gap:10px;text-align:center}
+header{text-align:center;align-items:center}
+section>p{text-align:center;margin-inline:auto}
+.items{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.items li{background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:16px 14px 18px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:2px;min-width:0}
+.items .ico{position:relative;width:100%;max-width:150px;aspect-ratio:1/1;margin-bottom:10px;border-radius:12px;border:1px solid var(--line);background:radial-gradient(circle at 50% 45%,var(--sky-soft),var(--surface) 75%);display:flex;align-items:center;justify-content:center;padding:8px}
+.items .ico img{width:100%;height:100%;object-fit:contain;display:block}
+.items .qty{position:absolute;right:-8px;bottom:-8px;background:var(--gold);color:var(--bg);font-family:var(--display);font-weight:600;font-size:.85rem;line-height:1;border-radius:999px;padding:5px 9px}
+.items .nm{font-family:var(--display);font-weight:600;font-size:1rem;line-height:1.4;text-wrap:balance}
+.items .kind{color:var(--gold);font-size:.9rem;line-height:1.4}
+.sub{font-family:var(--display);font-weight:600;color:var(--muted);font-size:.95rem}
+.note li+li{margin-top:8px}
+p,li{max-width:68ch}
+.summary li,.items li,.jump li{max-width:none}
+@media (prefers-reduced-motion:reduce){.cta{transition:none}html{scroll-behavior:auto}}
+html{scroll-behavior:smooth}
+footer{color:var(--muted);font-size:.9rem;border-top:1px solid var(--line);padding-top:16px}
+@media (min-width:901px){section,.summary{scroll-margin-top:24px}}
+</style>
+
+<div class="shell">
+  <nav class="jump" aria-label="ไปยังหัวข้อ">
+    <p class="jtitle">หัวข้อประกาศ</p>
+    <ul>
+      <li><a href="#price"><span class="n">1</span><span class="t"><b>ปรับลดราคา Pre-Order</b><small>สำหรับผู้มีสิทธิ์รอบนี้</small></span></a></li>
+      <li><a href="#pack"><span class="n">2</span><span class="t"><b>เปิดขายแพ็ก 9,990 SP</b><small>ซื้อได้ทุกท่าน</small></span></a></li>
+      <li><a href="#next"><span class="n">3</span><span class="t"><b>Pre-Order รอบถัดไป</b><small>ต้นเดือน พ.ย. 69</small></span></a></li>
+    </ul>
+    <p class="jtitle more">ข้อมูลเพิ่มเติม</p>
+    <ul class="minor">
+      <li><a href="#schedule">🗓️ กำหนดการทั้งหมด</a></li>
+      <li><a href="#notes">⚠️ ข้อควรทราบ</a></li>
+    </ul>
+  </nav>
+<div class="page">
+  <header>
+    <span class="eyebrow">📢 TREE OF SAVIOR M EXTREME · ประกาศจากทีมงาน</span>
+    <h1>ปรับแนวทาง Flashback Pre-Order คอสตูม Fluffy Sky Puppy / Golden Fox</h1>
+    <p class="lede">ขอบคุณทุกความคิดเห็นที่ส่งเข้ามา ทีมงานขอปรับราคาและวิธีจำหน่ายให้ชัดเจนขึ้น โดยผู้ที่มีสิทธิ์ Pre-Order ได้ราคาพิเศษกว่าเดิม และผู้เล่นทุกท่านจะมีโอกาสซื้อคอสตูมชุดนี้ด้วยเช่นกัน</p>
+  </header>
+
+  <div class="shot key"><img src="img/key-visual.webp" alt="คอสตูมทั้งหมดในประกาศนี้"></div>
+
+
+  <ul class="summary" id="summary">
+    <li>
+      <span class="who">🎟️ ผู้มีสิทธิ์ Pre-Order รอบนี้</span>
+      <span class="big">3,000 / 5,000 / 7,000 SP</span>
+      <span>ปรับลดราคาแลกซื้อตามยอดสะสมของท่าน</span>
+    </li>
+    <li>
+      <span class="who">🛍️ ผู้เล่นทุกท่าน</span>
+      <span class="big">แพ็กละ 9,990 SP</span>
+      <span>เปิดขายหลังตัดยอดและส่งของ Pre-Order แล้ว</span>
+    </li>
+    <li>
+      <span class="who">🔜 แคมเปญถัดไป</span>
+      <span class="big">ต้นเดือน พ.ย. 69</span>
+      <span>Pre-Order รอบ TP &amp; Gold Giltine ใช้แนวทางเดียวกัน</span>
+    </li>
+  </ul>
+
+  <section id="price">
+    <h2><span class="num">1</span><span>💰 ราคาใหม่สำหรับผู้มีสิทธิ์ Pre-Order</span></h2>
+    <p>ใช้กับทุกท่านที่มีรายชื่อได้รับสิทธิ์และลงทะเบียน Pre-Order ในรอบนี้ ไม่ต้องลงทะเบียนใหม่</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>ยอดซื้อแพ็กสะสมเดือน ส.ค.</th><th>ราคาเดิม</th><th>ราคาใหม่</th></tr></thead>
+        <tbody>
+          <tr><td>2,000 บาทขึ้นไป</td><td class="old">5,000 SP</td><td class="new">3,000 SP</td></tr>
+          <tr><td>1,000 – 1,999 บาท</td><td class="old">7,000 SP</td><td class="new">5,000 SP</td></tr>
+          <tr><td>990 – 999 บาท</td><td class="old">10,000 SP</td><td class="new">7,000 SP</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="sub">🎁 ของที่ได้รับ เหมือนกันทุกระดับ</p>
+    <ul class="items">
+      <li><div class="ico"><img src="img/item-costume.webp" alt=""><span class="qty">x1</span></div><span class="nm">Fluffy Sky Puppy / Golden Fox</span><span class="kind">Selection Box</span></li>
+      <li><div class="ico"><img src="img/item-tail.webp" alt=""><span class="qty">x1</span></div><span class="nm">Sky Puppy / Golden Fox</span><span class="kind">Tail Selection Box</span></li>
+      <li><div class="ico"><img src="img/item-hair.webp" alt=""><span class="qty">x1</span></div><span class="nm">Sky Puppy / Golden Fox</span><span class="kind">Hair Selection Box</span></li>
+    </ul>
+    <div class="ctabox">
+      <div class="txt"><strong>🔍 ยังไม่แน่ใจว่าได้ราคาไหน?</strong><span>กรอก Username (EXEID) และ AID เพื่อดูสิทธิ์และราคาแลกซื้อของท่าน</span></div>
+      <a class="cta" href="https://exe.in.th/flashback-preorder" target="_blank" rel="noopener">ตรวจสอบสิทธิ์ <span class="arrow" aria-hidden="true">→</span></a>
+    </div>
+  </section>
+
+  <section id="pack">
+    <h2><span class="num">2</span><span>🛍️ แพ็กคอสตูม 9,990 SP ซื้อได้ทุกท่าน</span></h2>
+    <p>หลังจากระบบตัดยอดและส่งของให้ผู้ที่ Pre-Order เรียบร้อยแล้ว ทีมงานจะเปิดขายคอสตูมทั้งสองชุดเป็นแพ็ก ไม่จำเป็นต้องมีสิทธิ์ Pre-Order</p>
+    <div class="packs">
+      <div class="pack">
+        <div class="shot"><img src="img/golden-fox.webp" alt="Set Fluffy Sky Puppy / Golden Fox"></div>
+        <div class="name"><h3>Set Fluffy Sky Puppy / Golden Fox</h3><span class="price">9,990 SP</span></div>
+        <div class="incl"><span>ประกอบไปด้วย</span><ul>
+          <li>Fluffy Sky Puppy / Golden Fox Selection Box</li>
+          <li>Sky Puppy / Golden Fox Tail Selection Box</li>
+          <li>Sky Puppy / Golden Fox Hair Selection Box</li>
+        </ul></div>
+      </div>
+      <div class="pack">
+        <div class="shot"><img src="img/sky-puppy.webp" alt="Set Rose Gold Headpiece"></div>
+        <div class="name"><h3>Set Rose Gold Headpiece</h3><span class="price">9,990 SP</span></div>
+        <div class="incl"><span>ประกอบไปด้วย</span><ul>
+          <li>Rose Gold Headpiece</li>
+          <li>Cherry Blossom Lamp</li>
+          <li>Silver Light White Flower Costume</li>
+        </ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="next">
+    <h2><span class="num">3</span><span>🔜 แคมเปญ Pre-Order รอบ TP &amp; Gold Giltine</span></h2>
+    <p>แคมเปญที่จะเปิดช่วงต้นเดือน พ.ย. 69 จะใช้แนวทางเดียวกันนี้ทั้งหมด</p>
+    <div class="shot wide"><img src="img/giltine.webp" alt="คอสตูมของแคมเปญ Pre-Order รอบ TP &amp; Gold Giltine"></div>
+    <div class="note">
+      <ul>
+        <li>ผู้ที่สะสมยอดซื้อถึงเกณฑ์ ได้สิทธิ์แลกซื้อในราคาพิเศษ 3,000 / 5,000 / 7,000 SP</li>
+        <li>เมื่อตัดยอดและส่งของให้ผู้ที่ Pre-Order แล้ว จะเปิดขายราคา 9,990 SP สำหรับผู้เล่นทุกท่าน</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="schedule">
+    <h2><span>🗓️</span><span>กำหนดการ</span></h2>
+    <ol class="timeline">
+      <li><div class="when">30 ก.ย. – 8 ต.ค. 69</div>ยืนยันตัวตนและลงทะเบียน Pre-Order</li>
+      <li><div class="when">9 ต.ค. 69 เวลา 15:00 น.</div>ระบบตัดยอดตามราคาใหม่ และส่งของให้ผู้ที่ Pre-Order</li>
+      <li><div class="when">หลังตัดยอดและส่งของ วันที่ 9 ต.ค. 69</div>เปิดขาย Set Fluffy Sky Puppy / Golden Fox และ Set Rose Gold Headpiece ราคาแพ็กละ 9,990 SP</li>
+      <li><div class="when">ต้นเดือน พ.ย. 69</div>เปิดแคมเปญ Pre-Order รอบ TP &amp; Gold Giltine</li>
+    </ol>
+  </section>
+
+  <section id="notes">
+    <h2><span>⚠️</span><span>ข้อควรทราบ</span></h2>
+    <div class="note">
+      <ul>
+        <li>หากยอด SP ในไอดีไม่ครบตามราคาแลกซื้อ ณ วันที่ 9 ต.ค. 69 เวลา 15:00 น. การ Pre-Order จะถูกยกเลิกทันที</li>
+        <li>รับคอสตูมได้ที่หัวข้อ “รับรางวัล” ในหน้าระบบสมาชิกบนเว็บไซต์</li>
+        <li>ข้อมูลที่กรอกใช้เพื่อยืนยันตัวตนเท่านั้น ไม่ถูกเผยแพร่ในช่องทางใด ๆ</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>#TOSM #TreeofSavior #TOSMExtreme #Extreme #เกมมือถือ</footer>
+</div>
+</div>
+<script>
+(function(){
+  var links=[].slice.call(document.querySelectorAll('.jump a'));
+  links.forEach(function(a){
+    a.addEventListener('click',function(e){
+      var t=document.getElementById(a.getAttribute('href').slice(1));
+      if(!t)return;
+      e.preventDefault();
+      t.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth',block:'start'});
+    });
+  });
+  if(!('IntersectionObserver' in window))return;
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(en){
+      if(!en.isIntersecting)return;
+      links.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+en.target.id);});
+    });
+  },{rootMargin:'-20% 0px -65% 0px'});
+  links.forEach(function(a){var t=document.getElementById(a.getAttribute('href').slice(1));if(t)io.observe(t);});
+})();
+</script>
+
+</body></html>
